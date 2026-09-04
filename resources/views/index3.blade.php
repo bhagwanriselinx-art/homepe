@@ -206,6 +206,8 @@
                     <a href="{{ route('home') }}" class="nav-link text-sm font-medium text-brand-600">Home</a>
                     <a href="{{ route('properties') }}" class="nav-link text-sm font-medium text-gray-600 hover:text-gray-900">Properties</a>
                     <a href="{{ route('agents') }}" class="nav-link text-sm font-medium text-gray-600 hover:text-gray-900">Agents</a>
+                    <a href="{{ route('blogs') }}" class="nav-link text-sm font-medium text-gray-600 hover:text-gray-900">Blog</a>
+                    <a href="{{ route('contact-us') }}" class="nav-link text-sm font-medium text-gray-600 hover:text-gray-900">Contact</a>
                     @isset($pages)
                         @foreach($pages->take(3) as $page)
                             <a href="{{ route('page', $page->slug) }}" class="nav-link text-sm font-medium text-gray-600 hover:text-gray-900">{{ Str::limit($page->title, 15) }}</a>
@@ -223,6 +225,8 @@
                 <a href="{{ route('home') }}" class="block py-2.5 px-3 text-sm font-medium text-brand-600 bg-brand-50 rounded-lg">Home</a>
                 <a href="{{ route('properties') }}" class="block py-2.5 px-3 text-sm font-medium text-gray-600 hover:bg-gray-50 rounded-lg">Properties</a>
                 <a href="{{ route('agents') }}" class="block py-2.5 px-3 text-sm font-medium text-gray-600 hover:bg-gray-50 rounded-lg">Agents</a>
+                <a href="{{ route('blogs') }}" class="block py-2.5 px-3 text-sm font-medium text-gray-600 hover:bg-gray-50 rounded-lg">Blog</a>
+                <a href="{{ route('contact-us') }}" class="block py-2.5 px-3 text-sm font-medium text-gray-600 hover:bg-gray-50 rounded-lg">Contact</a>
                 @isset($pages)
                     @foreach($pages->take(3) as $page)
                         <a href="{{ route('page', $page->slug) }}" class="block py-2.5 px-3 text-sm font-medium text-gray-600 hover:bg-gray-50 rounded-lg">{{ $page->title }}</a>
