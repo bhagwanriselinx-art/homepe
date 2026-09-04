@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "408368651380",
+    "project_id": "social-login-f0577",
+    "storage_bucket": "social-login-f0577.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408368651380:android:7e17b59e01d7b0556f0521",
+        "android_client_info": {
+          "package_name": "com.quomodosoft.online.homeco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408368651380-ru4uku0on7ns4dfs0tutvupk2mh27cgg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quomodosoft.online.homeco",
+            "certificate_hash": "d5c62b632caf284b59098e7d6629ed24c5195abb"
+          }
+        },
+        {
+          "client_id": "408368651380-0v2gm6c30emtilg2r9msil1fmtti7lfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOpGuEu_0KA-Fl4muOWoz0v2T-H4VFjgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408368651380-0v2gm6c30emtilg2r9msil1fmtti7lfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
